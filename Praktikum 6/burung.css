@@ -1,0 +1,66 @@
+body {
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gambar {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+#header {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    height: 110px;
+    margin: 0;
+}
+
+#soekarno {
+    color: red;
+    font-weight: bold;
+}
+
+.nav ul{
+    text-align: center;
+    list-style: none;
+}
+
+.nav li{
+    display: inline;
+}
+
+#profil ul li{
+    text-align: left;
+    padding-left: 0%;
+    margin-left: 0%;
+    list-style-type: disc;
+}
+
+.koleksi img{
+    margin: 0%;
+    width: 20%;
+}
+
+.koleksi {
+    background-color: sandybrown;
+}
+
+.promo {
+    background-color: brown;
+    text-align: center;
+    height: 210px;
+}  
+
+.promo li {
+    display: ruby;
+}
+
+*{
+    margin: 0;
+}
