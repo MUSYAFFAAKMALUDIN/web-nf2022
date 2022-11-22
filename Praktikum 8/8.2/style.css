@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+}
+
+header {
+    background-color: skyblue;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: aqua;
+    flex: 2;
+}
+
+main aside {
+    background-color: salmon;
+    flex: 1;
+}
+
+main nav {
+    background-color: lawngreen;
+    flex: 1;
+}
+
+header, footer {
+    background-color: tan;
+    padding: 1 rem'
+}
