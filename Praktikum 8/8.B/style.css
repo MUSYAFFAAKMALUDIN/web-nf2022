@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(Img/warna.jpg);
+
+
+}
+header {
+    background-color: rgb(92, 255, 173);
+    width: 100%;
+    margin: 10px;
+    height: 80px;
+    font-size:large;
+    text-align: center;
+}
+
+.main-fss {
+    display: flex;
+}
+
+aside {
+    background-color: rgb(52, 238, 136);
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    font-size:large;
+    text-align: center;
+}
+
+article {
+    background-color: rgb(255, 219, 140);
+    height: 400px;
+    width: 1300px;
+    margin: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+.cons-fs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 370px;
+}
+img {
+    width: 250px;
+    height: 150px;
+}
+
+footer {
+    background-color: rgb(92, 255, 173);
+    margin: 10px;
+    height: 80px;
+    font-size:large;
+    text-align: center;
+}
