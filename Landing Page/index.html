@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg-white border-gray-200 px-2 sm:px-4 dark:bg-gray-800">
+      <div class="div1 container flex-wrap items-center justify-between mx-auto">
+        <a href="#" class="a1 dark:bg-gray-900 p-3">
+          <i class="bx bxs-planet mr-4 text-white text-[20px]"></i>
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Sekolah Dasar</span>
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#home1" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a
+                href="#about1"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#price1"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Price List</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact1"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- hero section -->
+    <header class="header1 relative flex items-center justify-center h-screen overflow-hidden"  id="home1">
+      <div class="relative z-30 p-5 text-4xl text-bold text-white dark:bg-gray-800 rounded-xl">Welcome, SD Jakarta Intercultural School</div>
+      <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+        <source src="Sekolah Dasar.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </header>
+    <!-- end hero -->
+    <!-- Aboutme -->
+    <!-- end Aboutme -->
+    <div class="div2 bg-gray-800 w-full flex flex-col items-center justify-center">
+      <div class="flex flex-row mb-4">
+        <i class="bx bxs-hand-right text-3xl mt-8 mr-4 text-white"></i>
+        <h1 class="text-2xl font-bold text-white mt-8"  id="about1">Why SD Jakarta Intercultural School</h1>
+      </div>
+      <div class="px-[100px]">
+        <img src="Pendidikan.jpg" class="lg:w-[600px] sm:w-[400px]" alt="" />
+      </div>
+
+      <p class="text-center mt-4 text-white mb-8 lg:mx-[200px]">
+        Mengapa anda harus mendaftar di SD Jakarta Intercultural School? Sebab disini kami menyediakan fasilitas mumpuni serta pengajar yang berkualitas dari berbagai lulusan Universitas Negeri terbaik. Dan lingkungan sekolah yang bersih dan nyaman
+      </p>
+      </p>
+    </div>
+    <!-- Table -->
+    <div>
+      <div class="flex flex-row justify-center">
+        <i class="bx bx-money-withdraw mt-9 mr-4 text-2xl"></i>
+        <h1 class="text-3xl font-bold text-gray-800 mt-8" id="price1">Registration Fee</h1>
+      </div>
+      <div class="overflow-x-auto relative mt-4 mx-8">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+              <th scope="col" class="py-3 px-6">Registration</th>
+              <th scope="col" class="py-3 px-6">Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Gelombang 1</th>
+              <td class="py-4 px-6">Rp. 15.000.000</td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Gelombang 2</th>
+
+              <td class="py-4 px-6">Rp. 20.000.000</td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-800">
+              <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Gelombang 3</th>
+
+              <td class="py-4 px-6">Rp. 35.000.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- end table -->
+    <!-- Comment -->
+    <div class="mt-20 div3">
+      <div class="flex flex-row justify-center">
+        <i class="bx bx-phone-call text-center text-3xl mr-4"></i>
+        <h1 class="text-center text-3xl font-bold mb-6" id="contact1">Contact us</h1>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="border w-[325px] h-[910px] md:w-[1047px] md:h-[602px] bg-gray-800 rounded-[20px]">
+          <p class="md:text-3xl text-lg text-center font-thin mt-3 mx-4 text-white">Please fill out the form below</p>
+          <div class="flex md:justify-between flex-col md:flex-row">
+            <div class="flex flex-col px-8">
+              <input type="text" class="mt-10 md:ml-8 rounded-lg w-[] md:w-[379px]" placeholder="Name" />
+              <input type="text" class="mt-8 md:ml-8 rounded-lg w-[] md:w-[536px]" placeholder="E-mail" />
+              <textarea name="" id="" class="mt-8 md:ml-8 rounded-lg" cols="30" rows="10" placeholder="  Message"></textarea>
+              <button
+                type="button"
+                class="lg:ml-8 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-700 dark:text-white dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:border-gray-500 dark:focus:ring-gray-700 mt-4"
+              >
+                Submit
+              </button>
+            </div>
+            <div>
+              <div>
+                <div class="md:pr-16 md:pt-10 pl-4 md:pl-0 mt-8 md:mt-0">
+                  <p class="md:text-[26px] text-[23px] font-thin text-white">Address :</p>
+                  <p class="md:text-[19px] font-thin text-white">Jl.Pattimura Rt.03 Rw.06 Jakarta Barat</p>
+                </div>
+                <div class="md:pr-16 md:pt-10 pl-4 md:pl-0 mt-8 md:mt-0">
+                  <p class="md:text-[26px] text-[23px] text-8 font-thin text-white">Call us :</p>
+                  <p class="md:text-[19px] font-thin text-white">+6282100001</p>
+                </div>
+                <div class="md:pr-16 md:pt-10 pl-4 md:pl-0 mt-8 md:mt-0">
+                  <p class="md:text-[26px] text-[23px] text-8 font-thin text-white">Help</p>
+                  <p class="md:text-[19px] font-thin text-white">JakartaSchool@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="footer bg-gray-400 mt-10">
+        <div class="flex flex-col">
+          <div class="flex flex-col md:flex-row md:justify-between pl-8 mt-8">
+            <div class="md:ml-[200px] flex flex-row">
+              <i class="bx bxs-planet mr-4 text-white text-3xl"></i>
+              <h1 class="text-3xl font-semibold">SD Jakarta Intercultural School</h1>
+            </div>
+            <div class="mt-6">
+              <ul>
+                <h1 class="text-[21px] font-semibold">Navbar</h1>
+                <li class="text-[#D9D9D9] text-[16px] font-thin">SD Jakarta Intercultural School</li>
+                <li class="text-[#D9D9D9] text-[16px] font-thin">Registration fee</li>
+                <li class="text-[#D9D9D9] text-[16px] font-thin">Contact us</li>
+              </ul>
+            </div>
+            <div class="md:mr-[300px] mt-6">
+              <h1 class="text-[21px] font-semibold">Company</h1>
+              <p class="text-[#D9D9D9] text-[16px] font-thin">
+                PT.Jakarta Intercultural School<br />
+                Jakarta Timur,<br />
+                Indonesa
+              </p>
+            </div>
+          </div>
+          <div class="flex md:justify-around flex-col md:flex-row">
+            <div class="py-8 md:mr-[200px]">
+              <p class="mx-[20px] ml-8 text-[12px]">© PT.Jakarta Intercultural School 2022. All rights reserved.</p>
+            </div>
+            <div class="flex md:justify-end justify-center py-8">
+              <i class="bx bxl-linkedin-square text-[25px]"></i>
+              <i class="bx bxl-facebook text-[25px] ml-2"></i>
+              <i class="bx bxl-instagram text-[25px] ml-2"></i>
+              <i class="bx bxl-github text-[25px] ml-2"></i>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </footer>
+    </div>
+    <!-- script -->
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+  </body>
+</html>
