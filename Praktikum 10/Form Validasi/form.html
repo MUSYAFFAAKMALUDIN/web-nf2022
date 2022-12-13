@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #a1a17e;
+            height: 100vh;
+        }
+
+        .user-details {
+            width: 100%;
+            padding: 10px 40px;
+            background-color: #cc871f;
+        }
+
+        .title {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .user-details {
+            flex-wrap: wrap;
+            margin: 10px 3px;
+        }
+
+        .input-box input {
+            font-size: 16px;
+            padding-left: 5px;
+            height: 40px;
+            width: 100%;
+        }
+
+        #Tujuan {
+            font-size: 15px;
+            height: 40px;
+            width: 100%;
+            border: 0px solid #ccc;
+            padding-left: 5px;
+        }
+
+        .button input[type="submit"] {
+            border: none;
+            height: 40px;
+            width: 100px;
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            background: #e29118;
+            align-items: center;
+        }
+
+        .button input[type="submit"]:hover{
+            background: #070707;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="charset">
+        <div class="title">Form Validation</div>
+        <form onsubmit="buy()">
+                <div class="user-details">
+                <div class="input-box">
+                    <source class="details">Nama Pelanggan</source>
+                    <input type="text" name="nama" placeholder="masukkan nama" id="Name" required maxlength="30">
+                </div>
+                <div class="input-box">
+                    <source class="details">Email</source>
+                    <input type="email" name="email" placeholder="masukkan email" id="email" required>
+                </div>
+                <div class="input-box">
+                    <source class="details">Jam keberangkatan</source>
+                    <input type="time" name="" id="time">
+                </div>
+                <div class="input-box">
+                    <source class="details">Tujuan keberangkatan</source>
+                    <select name="" id="Tujuan">
+                        <option value="0">---Tujuan---</option>
+                        <option value="JKT">Jakarta</option>
+                        <option value="DPK">Depok</option>
+                        <option value="BD">Bandung</option>
+                        <option value="PLMB">Palembang</option>
+                        <option value="MLG">Malang</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <source class="details">Jumlah Ticket</source>
+                    <input type="number" min="1" max="5" placeholder="max 5" id="jumlah">
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Beli Ticket" id="jumlah">
+            </div>
+        </form>
+        </div>
+    <script src="buying process.js"></script>
+</body>
+
+</html>
